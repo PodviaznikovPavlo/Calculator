@@ -1,0 +1,154 @@
+body{
+	background-color: #DCDCDC;
+
+}
+body, div, a {
+    padding:0;
+    margin:0;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#container{
+	background-color: #ADD8E6;
+	width: 310px;
+	height: 460px;
+	border: 2px black solid;
+	margin: 30px auto;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#calc_title{
+	width: 95%;
+	margin: 5px auto;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-family: helvetica;
+}
+h3{
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 4px;
+}
+a{
+	cursor: pointer;
+}
+#numbers a:hover{
+	background-color: #ADD8E6;
+}
+
+#operators a:hover{
+	background-color: #ADD8E6;
+}
+#calc_img{
+	position: absolute;
+	margin: 5px;
+}
+#inner_container{
+	background-color: #F5F5F5;
+	height: 400px;
+	margin: 40 auto;
+	width: 95%;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+#active_panel{
+	background-color: #F0F8FF;
+	height: 45px;
+	width: 270px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 10px auto;
+	text-align: right;
+	font-size: 35px;
+	padding: 0 5px;
+}
+#numbers{
+	height: 266px;
+	width: 261px;
+	margin: 0 auto;
+}
+#operators{
+	height: 58px;
+	width: 290px;
+	margin: 0 auto;
+}
+
+#operators a{
+	display: block;
+	width: 40px;
+	height:40px;
+	float: left;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-size: 39px;
+	padding: 2px;
+	margin: 5px 6px;
+	background-color: #F0F8FF;
+	border-radius: 5px;
+	border: 1px solid black;
+
+}
+#numbers a {
+	display: block;
+	width: 35px;
+	height: 35px;
+	float: left;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-size: 30pt;
+	padding: 10px;
+	margin: 5px 15px;
+	background-color: #F0F8FF;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+/*#input{
+	margin-left: 250px;
+	margin-top: 6px;
+	direction: rtl;
+	margin-right: 10px;
+	font-size: 35px;
+}
+#numbers_block{
+	margin-top: 35px;
+	margin-left: 7px;
+	float: left;
+}
+.numbers{
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 2px;
+	background-color: #F0F8FF;
+	width: 35px;
+	text-align: center;
+	padding: 5px;
+}
+.first_lev{
+	margin-top: 10px;
+}
+.second_lev{
+	margin-top: 10px;
+}
+.third_lev{
+	margin-top: 10px;
+}
+.zero_lev{
+	margin-top: 10px;
+}
+.zero{
+	width: 86px;
+}
+#side_block{
+	width: 46px;
+	float: left;
+	margin-top: 35px;
+	margin-left: 4px;
+}
+.eqv{
+	height: 60px;
+}
+.eqv div{
+	margin: 20 auto;
+}*/
